@@ -1,0 +1,50 @@
+{
+  "name": "hanzi-collection",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "汉字集 - 一个简洁大气的汉字学习与诗词欣赏平台",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:23415/git/ropean/hanzi-collection"
+  },
+  "keywords": [
+    "汉字",
+    "五笔",
+    "诗词",
+    "成语",
+    "歇后语"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fuse.js": "^7.1.0",
+    "hanzi-writer": "^3.7.3",
+    "pinia": "^3.0.4",
+    "pinyin-pro": "^3.27.0",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.17",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "happy-dom": "^15.7.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "vite": "^7.2.6",
+    "vitest": "^2.1.3"
+  }
+}
